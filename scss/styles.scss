@@ -5,3 +5,30 @@
 
 //миксины
 
+
+html, body {
+   height: 100%;
+   font-size: 20px;
+   background-color: #eae7dc;
+}
+
+.wrapper {
+   min-height: 100%;
+	overflow: hidden;
+   max-width: 1200px;
+	margin: 0px auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+
+}
+
+.main {
+   flex: 1 1 auto;
+}
+
+.footer {
+
+}
